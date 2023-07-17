@@ -1,0 +1,157 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+header{
+    background-color: bisque;
+    padding: 35px;
+}
+.banner{
+    text-align: center;
+    gap: 20px;
+}
+.banner-title{
+    font-size: 4rems;
+}
+.btn{
+    background-color: orange;
+    color: white;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+}
+.banner img {
+    margin-top: 20px;
+    width: 70%;
+}
+.team-container{
+    display: flex;
+    gap:25px;
+    align-items: center;
+    margin-top: 50px;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.team-img img{
+
+    width: 100%;
+    
+}
+.list{
+    color: gray;
+
+}
+.of{
+    font-weight: bolder;
+}
+.features{
+    color: orange;
+}
+.cards{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    width: 100%;
+}
+.features-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    
+}
+.features-img img{
+width: 70%;
+margin-left: 250px;
+
+
+}
+
+.features-title{
+font-size: 2rem;
+font-weight: bolder;
+    border-left: 4px solid orange;
+    padding-left: 20px;
+}
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    margin-left: 180px;
+}
+.experience{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+.badge-content{
+    text-align: center;
+}
+.badge-desc{
+
+    margin-bottom: 30px;
+}
+.badge-title{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.facts-img{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+.ribon, .project, .clients, .email{
+    border:2px solid goldenrod;
+    width: 20%;
+    height: 10%;
+   padding-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.award{
+
+margin-bottom: 110px;
+
+}
+
+.sponsor-container{
+
+
+    margin-top: 50px;
+  
+}
+.sponsor-img{
+
+
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.sponsor-content{
+
+    text-align: center;
+    margin-bottom: 45px;
+}
